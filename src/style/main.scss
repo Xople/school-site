@@ -1,0 +1,28 @@
+@import "~antd/lib/style/index";
+
+.container {
+  width: 100%;
+  max-width: 967px;
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
+// .make-container(@minWidth, @breakpoint) {
+//   @media (min-width: @minWidth) {
+//       .container {
+//           max-width: @breakpoint;
+//       }
+//   }
+// }
+
+// .make-container(@screen-xs-min, @screen-xs);
+// .make-container(@screen-sm-min, @screen-sm);
+// .make-container(@screen-md-min, @screen-md);
+// .make-container(@screen-lg-min, @screen-lg);
+// .make-container(@screen-xl-min, @screen-xl);
+// .make-container(@screen-xxl-min, @screen-xxl); // Optional
+
+.box-shadow-1{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .05);
+}
